@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import "../App.css";
 import axios from 'axios';
-import ReactDOM from "react-dom";
+
 
 class Evaluator extends Component {
     constructor(props) {

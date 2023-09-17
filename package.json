@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "set PORT=3006 && react-scripts start",
+    
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --coverage --verbose=false --json --outputFile=testReport.json",
     "eject": "react-scripts eject",
@@ -24,6 +25,7 @@
     "axios-mock-adapter": "^1.15.0",
     "enzyme": "^3.5.0",
     "enzyme-adapter-react-16": "^1.7.0",
+    "nodemon": "^3.0.1",
     "react-test-renderer": "^16.6.3"
   },
   "browserslist": [
