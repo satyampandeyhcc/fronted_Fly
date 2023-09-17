@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Route,
   Link,
-  Redirect,
+  
 } from "react-router-dom";
 import GetBooking from "./components/GetBookings";
 import GetFlights from "./components/GetFlights";
