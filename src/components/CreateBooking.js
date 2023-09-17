@@ -3,7 +3,7 @@ import axios from "axios";
 import GetFlights from './GetFlights';
 import BookingDetailsCard from './BookingDetailsCard';
 
-const url = "https://flighthaven.onrender.com/bookFlight/";
+const url = "http://localhost:1050/bookFlight/";
 
 class CreateBooking extends Component {
   constructor(props) {

@@ -3,7 +3,7 @@ import axios from "axios";
 import "../App.css";
 import FlightDetails from './flightDetails';
 
-const url = "https://flighthaven.onrender.com/getFlights/";
+const url = "http://localhost:1050/getFlights/";
 
 export default class GetFlights extends Component {
     constructor(props){
