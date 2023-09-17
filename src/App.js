@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import GetBooking from "./components/GetBookings";
 import GetFlights from "./components/GetFlights";
 import Evaluator from "./testing/evaluator";
@@ -24,7 +19,7 @@ function AppComp() {
               width="30vw"
               className="mr-2"
             />{" "}
-            FlightBookVenture
+            FlightBookingVenture
           </span>
           <button
             className="navbar-toggler"
