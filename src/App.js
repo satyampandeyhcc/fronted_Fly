@@ -50,7 +50,7 @@ function AppComp() {
           </div>
         </nav>
 
-        <Route exact path="/" render={() => <Redirect to="/bookFlight" />} />
+        <Route exact path="/" component={GetFlights} />
         <Route exact path="/bookFlight" component={GetFlights} />
         <Route exact path="/viewBooking" component={GetBooking} />
       </div>
