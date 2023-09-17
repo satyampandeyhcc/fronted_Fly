@@ -24,7 +24,7 @@ function AppComp() {
               width="30vw"
               className="mr-2"
             />{" "}
-            Fly High
+            FlightBookVenture
           </span>
           <button
             className="navbar-toggler"
