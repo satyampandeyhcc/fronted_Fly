@@ -16,7 +16,7 @@ class Evaluator extends Component {
     setUpDb = () => {
         console.log("setup method called")
         this.setState({ dbMessage: null })
-        axios.get("http://localhost:1050/setupDb").then(response => {
+        axios.get("https://flighthaven.onrender.com/setupDb").then(response => {
             console.log(response);
             this.setState({ dbMessage: response.data })
         }).catch(error => error.response.data.message)

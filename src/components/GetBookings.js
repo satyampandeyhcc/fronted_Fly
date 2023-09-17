@@ -4,7 +4,7 @@ import "../App.css";
 import BookingDetailsCard from './BookingDetailsCard';
 
 
-const url = "http://localhost:1050/viewBookingDetails/";
+const url = "https://flighthaven.onrender.com/viewBookingDetails/";
 
 class GetBooking extends Component {
   constructor(props) {
